@@ -1,0 +1,24 @@
++ Crear página de perfil con los logros conseguidos
+- Crear sistema de avance durante los cursos
++ Crear temas avanzados: La batalla de Jerusalén
++ Crear temas avanzados: La caída de Constantinopla
++ Crear audios para los temas
+- Vincular cookies al tutorial inicial
++ Crear preguntas para La batalla de Jerusalén
++ Crear preguntas para La caída de Constantinopla
++ Enlaces a los temas dentro de las páginas de indice de cada tema
++ Crear preguntas para Los vikingos en Galicia
++ Añadir los enlaces de Atrás en los test para ir a la página anterior
++ Vincular audios a los temas
+- Crear un sistema de inicio de sesión con registro de usuarios
++ Realizar audio de El camino del tiempo
++ Realizar audio de Introducción
++ Falta el Audio de El ataque ha comenzado
+- Añadir funcionalidad a los tres puntos de menú de los test
+- Crear sistema de logros para que al desbloquearlos pasen a tu perfil
+- Analizar conveniencia de crear foros de comentarios
++ Cambiar diseño de logros y ponerlos en lista en vez de rejilla
++ Analizar los diseños de artículos y de las imágenes
++ Crear one page en la página del Glosario de términos
++ Modificar la barra de menú baja con otro diseño que permita añadir el foro de actividad
+

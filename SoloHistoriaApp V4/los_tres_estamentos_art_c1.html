@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content-left">
+                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><img src="images/Side_Menu.png"></a>
+                        <a href="index.html">
+                            <h4>SoloHistoria</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- navbar bottom -->
+
+    <nav class="acceso_curso">
+        <a href="test1_los_tres_estamentos_art_c1.html">
+            <div class="nav-fixed col s12 center-align">
+                <img src="images/SIGUIENTE.png">
+            </div>
+        </a>
+    </nav>
+
+    <!-- fin navbar bottom -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav">
+            <li>
+                <div class="user-view">
+                    <!--<div class="background">
+					 	<img src="images/bg-user.jpg" alt="">
+					</div> -->
+                    <img class="circle responsive-img" src="images/Ruben_Terre.jpg" alt="">
+                    <span class="white-text name">Rubén Terré<br>
+                        <p>2.9848 Puntos</p>
+                    </span>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-star"></i>SoloHistoria PRO</a></li>
+            <li><a href="ajustes.html"><i class="fa fa-ellipsis-h"></i>Ajustes</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i>Clasificaciones</a></li>
+            <li><a href="glosario.html"><i class="fa fa-bookmark"></i>Glosario</a></li>
+            <li><a href="#"><i class="fa fa-user-plus"></i>Invitar Amigos</a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Calificar </a></li>
+            <li><a href="register12.html"><i class="fa fa-sign-in"></i>Regístrate</a></li>
+            <li><a href="login12.html"><i class="fa fa-user-plus"></i>Inicia sesión</a></li>
+            <li><a href="index.html"><i class="fa fa-share"></i>Salir</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-right-search">
+        <ul id="slide-out-right" class="collapsible side-nav">
+            <li>
+                <div class="form">
+                    <input type="search">
+                    <button class="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <h5>Búsqueda popular</h5>
+            </li>
+            <li><a href="">Galicia</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- Contenido curso -->
+    <div class="row" style="margin-top: 60px;">
+       
+        <!-- Reproductor de audio -->
+
+        <div class="container" style="padding-top: 20px;padding-bottom: 20px;">
+            <audio id="audio" src="audios/los_tres_estamentos_mod1.mp3" type="audio/mpeg"></audio>
+            <button class="btn btn-floating btn-large pulse center-align togglePlay" onClick="togglePlay()"></button>
+        </div>
+
+        <!-- Contenido Curso -->
+
+        <div class="container">
+            <div class="articulo">
+                <h2>Los tres estamentos</h2>
+                <p class="textos_art"><img src="images/Una-Era-entre-murallas_icon.png" hspace="4" vspace="4" style="float: left;">En la Edad Media <u>la sociedad estaba dividida en tres grupos que tenían sus roles definidos.</u> Los nobles y los caballeros guerreaban, el clero oraba y todos los demás trabajaban.</p>
+                <figure class="center-align">
+                    <img src="images/Piramide_social.png" width="100%">
+                    <figcaption class="center-align">Pirámide social</figcaption>
+                </figure>
+                <p class="textos_art">Todos ellos sabían cual era su estamento y aunque normalmente el sistema era muy estático, a veces los de un grupo podían acabar en otro.</p>
+                <figure class="center-align">
+                    <img src="images/Caballero_biblia_maciejosky.png" width="20%">
+                    <figcaption class="center-align">Nobleza y monarquía (Grupo 1)</figcaption>
+                </figure>
+                <figure class="center-align">
+                    <img src="images/Clero_medieval.png" width="50%">
+                    <figcaption class="center-align">Monjes y clero secular (Grupo 2)</figcaption>
+                </figure>
+                <figure class="center-align">
+                    <img src="images/Campesinos_la_biblia_maciejosky.png" width="60%">
+                    <figcaption class="center-align">Campesinos y el resto de la población (Grupo 3)</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href=""><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+
+</body>
+
+</html>

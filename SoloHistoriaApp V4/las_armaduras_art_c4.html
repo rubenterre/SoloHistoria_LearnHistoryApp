@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content-left">
+                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><img src="images/Side_Menu.png"></a>
+                        <a href="index.html">
+                            <h4>SoloHistoria</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- navbar bottom -->
+
+    <nav class="acceso_curso">
+        <a href="test1_las_armaduras_art_c4.html">
+            <div class="nav-fixed col s12 center-align">
+                <img src="images/SIGUIENTE.png">
+            </div>
+        </a>
+    </nav>
+
+    <!-- fin navbar bottom -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav">
+            <li>
+                <div class="user-view">
+                    <!--<div class="background">
+					 	<img src="images/bg-user.jpg" alt="">
+					</div> -->
+                    <img class="circle responsive-img" src="images/Ruben_Terre.jpg" alt="">
+                    <span class="white-text name">Rubén Terré<br>
+                        <p>2.9848 Puntos</p>
+                    </span>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-star"></i>SoloHistoria PRO</a></li>
+            <li><a href="ajustes.html"><i class="fa fa-ellipsis-h"></i>Ajustes</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i>Clasificaciones</a></li>
+            <li><a href="glosario.html"><i class="fa fa-bookmark"></i>Glosario</a></li>
+            <li><a href="#"><i class="fa fa-user-plus"></i>Invitar Amigos</a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Calificar </a></li>
+            <li><a href="register12.html"><i class="fa fa-sign-in"></i>Regístrate</a></li>
+            <li><a href="login12.html"><i class="fa fa-user-plus"></i>Inicia sesión</a></li>
+            <li><a href="index.html"><i class="fa fa-share"></i>Salir</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-right-search">
+        <ul id="slide-out-right" class="collapsible side-nav">
+            <li>
+                <div class="form">
+                    <input type="search">
+                    <button class="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <h5>Búsqueda popular</h5>
+            </li>
+            <li><a href="">Galicia</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- Contenido curso -->
+    <div class="row" style="padding-top: 60px">
+
+        <!-- Reproductor de audio -->
+
+        <div class="container" style="padding-top: 20px;padding-bottom: 20px;">
+            <audio id="audio" src="audios/las_armaduras_mod1.mp3" type="audio/mpeg"></audio>
+            <button class="btn btn-floating btn-large pulse center-align togglePlay" onClick="togglePlay()"></button>
+        </div>
+
+        <!-- Contenido Curso -->
+
+        <div class="container">
+            <div class="articulo">
+                <h2>Las armaduras</h2>
+                <p class="textos_art"><img src="images/Las-Armaduras_icon.png" hspace="4" vspace="4" style="float: left;">Los caballeros medievales iban mejor pertrechados que el resto de la tropa. No sólo llevaban armas de mejor calidad si no que también contaban con un caballo y una poderosa armadura que podía llegar a pesar unos 25 kilogramos. Los caballos también iban protegidos con faldores y cotas de malla que los convertía en verdaderos vehículos blindados. A lo largo de la Edad Media el caballero medieval fue añadiendo más y más piezas de hierro a su armadura, de tal forma que pasó de una simple cota de malla y un sobreveste en el siglo XII a una pesada y sólida armadura en el siglo XV.
+                </p>
+                <figure class="center-align">
+                    <img src="images/caballero-con-las-armaduras-biblia.jpg" width="100%" class="cuadro_img">
+                    <figcaption class="center-align" style="padding: 10px;">Caballeros con cota de malla y sobreveste, una túnica sin mangas.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href=""><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+
+</body>
+
+</html>

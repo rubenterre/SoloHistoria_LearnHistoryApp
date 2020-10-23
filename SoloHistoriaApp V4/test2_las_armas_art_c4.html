@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar bottom -->
+
+    <nav class="acceso_curso">
+        <a href="un_fuerte_entrenamiento_art_c4.html">
+            <div class="nav-fixed col s12 center-align">
+                <img src="images/SIGUIENTE.png">
+            </div>
+        </a>
+    </nav>
+
+    <!-- fin navbar bottom -->
+
+
+
+    <!-- Contenido curso -->
+    <div class="row">
+        <div class="container test_header">
+            <div>
+                <div class="col s3 left-align"><a href="test1_las_armas_art_c4.html"><img src="images/Atras.png"></a></div>
+                <div class="col s6 center-align">
+                    <h5>Las armas</h5>
+                    <p style="color: #C0C0C0;">Pregunta 2/2</p>
+                </div>
+                <div class="col s3 right-align"><img src="images/More.png"></div>
+            </div>
+            <div class="quiz-container">
+                <div class="question box">
+                    <p class="preguntas"><span>1.</span> ¿A partir de qué año aparece la ballesta?</p>
+                </div>
+                <ul class="answers">
+                    <li class="answer box">
+                        <p><span>a</span> Siglo VIII</p>
+                    </li>
+                    <li class="answer box">
+                        <p><span>b</span> Siglo X</p>
+                    </li>
+                    <li class="answer box">
+                        <p><span>c</span> Siglo IX</p>
+                    </li>
+                    <li class="answer box">
+                        <p><span>d</span> Siglo XIV</p>
+                    </li>
+                </ul>
+                <button class="box">Enviar<span>&#x203A;</span></button>
+            </div>
+
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href=""><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script>
+        $(document).ready(function() {
+            var checkmark = "<span class='checkmark'>&#x2713;</span>";
+
+            $(".answer").click(function() {
+                $(this).siblings(".answer").removeClass("active").children("span").remove();
+                $(this).addClass("active").append(checkmark);
+            });
+
+            var $toastContent = $('<p style="text-align: center;font-size:18px;"><strong>¡Bien hecho!</strong><br><span style="font-size: 16px;"><strong>10 puntos</strong></span> más para tu marcador de experiencia</p>');
+
+            var $toastContentError = $('<p style="text-align: center;font-size: 18px;"><strong>¡Respuesta errónea!</strong></br><strong>-10 puntos</strong><br>No desesperes, sigue intentándolo</p>');
+
+            var $toastContentResponde = $('<p style="text-align: center;font-size: 18px;"><strong>Por favor, seleccione una respuesta</strong></p>');
+
+            $("button").click(function() {
+                if ($(".active").length) {
+                    if ($(".active").index() === 1) {
+                        Materialize.toast($toastContent, 4000, 'card-panel teal lighten-2');
+                    } else {
+                        Materialize.toast($toastContentError, 4000, 'card-panel red darken-2');
+                    }
+                } else {
+                    Materialize.toast($toastContentResponde, 4000, 'card-panel amber darken-4');
+                }
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

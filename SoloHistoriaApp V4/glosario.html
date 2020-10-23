@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es" style="height: 100%">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <style>
+        .tfoot input {
+            width: 100%;
+            padding: 3px;
+            box-sizing: border-box;
+        }
+
+        .busq_tit {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .busq_txt {
+            font-size: 14px;
+            color: #C0C0C0;
+        }
+
+        #txtSearch {
+            font-size: 18px;
+            text-align: center;
+            background: #181818;
+        }
+
+        #example_length {
+            display: none;
+        }
+
+        #example_info {
+            display: none;
+        }
+
+        #example_paginate {
+            display: none;
+        }
+
+    </style>
+
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content-left">
+                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><img src="images/Side_Menu.png"></a>
+                        <a href="index.html">
+                            <h4>SoloHistoria</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav">
+            <li>
+                <div class="user-view">
+                    <!--<div class="background">
+					 	<img src="images/bg-user.jpg" alt="">
+					</div> -->
+                    <img class="circle responsive-img" src="images/Ruben_Terre.jpg" alt="">
+                    <span class="white-text name">Rubén Terré<br>
+                        <p>2.9848 Puntos</p>
+                    </span>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-star"></i>SoloHistoria PRO</a></li>
+            <li><a href="ajustes.html"><i class="fa fa-ellipsis-h"></i>Ajustes</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i>Clasificaciones</a></li>
+            <li><a href="glosario.html"><i class="fa fa-bookmark"></i>Glosario</a></li>
+            <li><a href="#"><i class="fa fa-user-plus"></i>Invitar Amigos</a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Calificar </a></li>
+            <li><a href="register12.html"><i class="fa fa-sign-in"></i>Regístrate</a></li>
+            <li><a href="login12.html"><i class="fa fa-user-plus"></i>Inicia sesión</a></li>
+            <li><a href="index.html"><i class="fa fa-share"></i>Salir</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-right-search">
+        <ul id="slide-out-right" class="collapsible side-nav">
+            <li>
+                <h5>Búsqueda términos</h5>
+            </li>
+            <li><a href="">Galicia</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- Contenido curso -->
+    <div class="row">
+        <div class="container">
+            <div class="contenido_curso col s12">
+                <h2>Glosario</h2>
+            </div>
+            <div class="contenido_curso_centro">
+                <input id="txtSearch" placeholder="Busca vocabulario" class="form-control" />
+
+
+                <table id="example" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="busq_tit">Alabarda</td>
+                            <td class="busq_txt">Hoja afilada fijada a un palo. Podía usarse como hacha de guerra o como pica.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Alfoz</td>
+                            <td class="busq_txt">Territorio circundante a una ciudad y que depende de ella.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Almena</td>
+                            <td class="busq_txt">Parapetos defensivos en lo alto de las murallas. También se le llamaba así a los huecos para disparar flechas.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Andalusí</td>
+                            <td class="busq_txt">De Al-Ándalus, nombre que daban los musulmanes a la Península Ibérica. Muchos historiadores denominan así solo al territorio que perteneció a los musulmanes entre el 711 y 1492.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Arco largo</td>
+                            <td class="busq_txt">Arco de madera de tejo de aproximadamente 1,8 metros y que resultó distintivo de las tropas medievales inglesas.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Aspillera o saetera</td>
+                            <td class="busq_txt">Abertura en un muro defensivo a través de la cual
+                                se disparaba.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Ariete</td>
+                            <td class="busq_txt">Viga larga y pesada reforzada en sus extremos que se usaba para derribar puertas y muros.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Asediar o sitiar</td>
+                            <td class="busq_txt">Cerco que se pone a un lugar para impedir que salgan de él o que reciban ayuda de fuera.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Báculo</td>
+                            <td class="busq_txt">Viga larga y pesada reforzada en sus extremos que se usaba para derribar puertas y muros.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Balísta</td>
+                            <td class="busq_txt">Arma de asedio que servía para lanzar proyectiles a gran distancia. Tenía un mecanismo similar a una ballesta y se usaba frecuentemente para atacar estructuras de madera como las ladroneras de un castillo o para romper las formaciones de soldados enemigos.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Barbacana</td>
+                            <td class="busq_txt">Defensa amurallada que defendía la puerta de un castillo o una ciudad.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Bombarda</td>
+                            <td class="busq_txt">Cañón del siglo XV de grandes proporciones que dispaba proyectiles de piedra.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Centinela</td>
+                            <td class="busq_txt">Soldado de vigilancia. Normalmente se situaban en puertas o torres de las fortalezas.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Cota de malla</td>
+                            <td class="busq_txt">Vestido de anillas de metal para proteger el cuerpo.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Cruzadas</td>
+                            <td class="busq_txt">Una serie de guerras libradas por los cristianos para el control de los territorios de Oriente Próximo donde vivió Jesús (Tierra Santa).
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Cruzados</td>
+                            <td class="busq_txt">Grupo heterogéneo de guerreros cristianos que tenían el objetivo de conquistar Tierra Santa a los musulmanes.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Escudero</td>
+                            <td class="busq_txt">Ayudante de más de 14 años que asistía a un caballero y portaba sus armas mientras él no las necesitase.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Espuela</td>
+                            <td class="busq_txt">Pieza metálica que llevaban en la bota los jinetes para hacer correr al caballo.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Estafermo</td>
+                            <td class="busq_txt">Poste utilizado en los entrenamientos para practicar el ataque con la lanza.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Foso</td>
+                            <td class="busq_txt">Excavación profunda que rodea una fortificación.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Fundíbulo</td>
+                            <td class="busq_txt">Máquina de asedio consistente en una viga o barra de madera que por un extremo tiene un contrapeso y por el otro una honda. Se usaba para lanzar proyectiles muy pesados contra las murallas.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Guarnición</td>
+                            <td class="busq_txt">Tropas que protegen una fortaleza o ciudad.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Heráldica</td>
+                            <td class="busq_txt">Estudio y explicación de los escudos de armas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Justa</td>
+                            <td class="busq_txt">Torneo en el que un caballero se enfrentaba a otro intentando descabalgarlo.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Maganel</td>
+                            <td class="busq_txt">Catapulta gigante.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Maza</td>
+                            <td class="busq_txt">Arma formada por un palo grueso con un extremo más gordo de metal.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Mazmorra</td>
+                            <td class="busq_txt">Cárcel subterránea.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Mortero</td>
+                            <td class="busq_txt">Conglomerado o masa usada para unir las piedras o ladrillos entre sí.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Onagro</td>
+                            <td class="busq_txt">Arma de asedio del tipo catapulta que disponía de un sistema de torsión para tensar el brazo de lanzar. Fácil de usar y muy potente para destruir torres defensivas y barrer la parte superior de las murallas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Panoplia</td>
+                            <td class="busq_txt">Conjunto de armas y armaduras de un guerrero.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Pavés</td>
+                            <td class="busq_txt">Escudo que cubría todo el cuerpo y que servía para protegerse de los arqueros en la batalla.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Peste</td>
+                            <td class="busq_txt">Nombre que se le dio desde la Antigüedad a las enfermedades contagiosas.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Pico o Rollo</td>
+                            <td class="busq_txt">Columna generalmente de piedra que se situaba en las entradas a las ciudades y donde se exponían las cabezas y otras partes del cuerpo de los ajusticiados. También se ataba allí a los reos para vergüenza pública. </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Sillares</td>
+                            <td class="busq_txt">Piedras labradas que se usan para construir edificios.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Saeta</td>
+                            <td class="busq_txt">Flecha pesada con punta triangular que se dispara con el arco o la ballesta.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Sobreveste</td>
+                            <td class="busq_txt">Prenda de vestir que se ponía por encima de la armadura.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Trabuco</td>
+                            <td class="busq_txt">Fundíbulo o catapulta de contrapesos.</td>
+                        </tr>
+                        <tr>
+                            <td class="busq_tit">Tronera</td>
+                            <td class="busq_txt">Recinto donde se situaban los defensores que disparaban por las aspilleras. Más tarde será el espacio en donde se situarán los cañones.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner 
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href="curso_detalle.html"><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable({
+                "paging": false,
+                "ordering": false,
+                "info": false
+            });
+
+            $('#example_filter').hide(); // Hide default search datatables where example is the ID of table
+
+            $('#txtSearch').on('keyup', function() {
+                $('#example')
+                    .DataTable()
+                    .search($('#txtSearch').val(), false, true)
+                    .draw();
+            });
+        });
+
+    </script>
+</body>
+
+</html>

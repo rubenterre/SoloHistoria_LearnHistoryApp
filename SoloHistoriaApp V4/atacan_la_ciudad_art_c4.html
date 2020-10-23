@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content-left">
+                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><img src="images/Side_Menu.png"></a>
+                        <a href="index.html">
+                            <h4>SoloHistoria</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- navbar bottom -->
+
+    <nav class="acceso_curso">
+        <a href="test1_atacan_la_ciudad_art_c4.html">
+            <div class="nav-fixed col s12 center-align">
+                <img src="images/SIGUIENTE.png">
+            </div>
+        </a>
+    </nav>
+
+    <!-- fin navbar bottom -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav">
+            <li>
+                <div class="user-view">
+                    <!--<div class="background">
+					 	<img src="images/bg-user.jpg" alt="">
+					</div> -->
+                    <img class="circle responsive-img" src="images/Ruben_Terre.jpg" alt="">
+                    <span class="white-text name">Rubén Terré<br>
+                        <p>2.9848 Puntos</p>
+                    </span>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-star"></i>SoloHistoria PRO</a></li>
+            <li><a href="ajustes.html"><i class="fa fa-ellipsis-h"></i>Ajustes</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i>Clasificaciones</a></li>
+            <li><a href="glosario.html"><i class="fa fa-bookmark"></i>Glosario</a></li>
+            <li><a href="#"><i class="fa fa-user-plus"></i>Invitar Amigos</a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Calificar </a></li>
+            <li><a href="register12.html"><i class="fa fa-sign-in"></i>Regístrate</a></li>
+            <li><a href="login12.html"><i class="fa fa-user-plus"></i>Inicia sesión</a></li>
+            <li><a href="index.html"><i class="fa fa-share"></i>Salir</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-right-search">
+        <ul id="slide-out-right" class="collapsible side-nav">
+            <li>
+                <div class="form">
+                    <input type="search">
+                    <button class="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <h5>Búsqueda popular</h5>
+            </li>
+            <li><a href="">Galicia</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- Contenido curso -->
+    <div class="row" style="padding-top: 60px">
+
+        <!-- Reproductor de audio -->
+
+        <div class="container" style="padding-top: 20px;padding-bottom: 20px;">
+            <audio id="audio" src="audios/atacan_la_ciudad_mod1.mp3" type="audio/mpeg"></audio>
+            <button class="btn btn-floating btn-large pulse center-align togglePlay" onClick="togglePlay()"></button>
+        </div>
+
+        <!-- Contenido Curso -->
+
+        <div class="container">
+            <div class="articulo">
+                <h2>Atacan la ciudad</h2>
+                <p class="textos_art"><img src="images/Atacan-la-ciudad_icon.png" hspace="4" vspace="4" style="float: left;">Antes de conquistar una ciudad era necesario una buena planificación. Se estudiaba a fondo el territorio circundante, sus rutas de suministros, las fortificaciones y el ejército al que había que enfrentarse.</p>
+                <figure class="center-align">
+                    <img src="images/atacan_la_ciudad_BL_Royal_20_C_VII_41v.png" width="100%" class="cuadro_img">
+                    <figcaption class="center-align" style="padding: 10px;">Era habitual que al conquistar una ciudad los soldados la saquearan y se repartieran el botín.</figcaption>
+                </figure>
+                <p class="textos_art">
+                    Se instalaba un campamento en un lugar estratégico, se controlaba el territorio que quedaba alrededor de las murallas y se iniciaban ataques a las aldeas cercanas que nutrían de alimentos a los habitantes de la ciudad.
+                </p>
+                <figure class="center-align">
+                    <img src="images/siege-of-jerusalem-from-bl-royal-1-e-ix-f-222-a44ab6-1024.png" width="100%">
+                    <figcaption class="center-align" style="padding: 10px;">Los ejércitos rodeaban la ciudad y controlaban que nadie pudiera escapar.</figcaption>
+                </figure>
+                <p class="textos_art">
+                    <strong>Se buscaban los muros más débiles de la muralla</strong> y si se encontraban se intentaba montar las máquinas de asedio lo más cerca posible de ellos. Sí a los pocos días de iniciar el ataque no se conseguía el éxito se empezaba un asedio por hambre. Los comandantes más crueles también lanzaban animales enfermos dentro de la ciudad para que las enfermedades aumentaran el pánico y la desolación. Aún así la ciudad tenía esperanzas de victoria.
+                </p>
+                <figure class="center-align">
+                    <img src="images/abrojos.png" width="70%">
+                    <figcaption class="center-align" style="padding: 10px;">Los abrojos se lanzaban desde las murallas. Cayeran como cayeran siempre quedaba una púa hacia arriba que podía dejar cojos a soldados y caballos.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href=""><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+
+</body>
+
+</html>

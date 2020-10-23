@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content-left">
+                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><img src="images/Side_Menu.png"></a>
+                        <a href="index.html">
+                            <h4>SoloHistoria</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- navbar bottom -->
+
+    <nav class="acceso_curso">
+        <a href="test1_eje_cronologico_art_c2.html">
+            <div class="nav-fixed col s12 center-align">
+                <img src="images/SIGUIENTE.png">
+            </div>
+        </a>
+    </nav>
+
+    <!-- fin navbar bottom -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav">
+            <li>
+                <div class="user-view">
+                    <!--<div class="background">
+					 	<img src="images/bg-user.jpg" alt="">
+					</div> -->
+                    <img class="circle responsive-img" src="images/Ruben_Terre.jpg" alt="">
+                    <span class="white-text name">Rubén Terré<br>
+                        <p>2.9848 Puntos</p>
+                    </span>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-star"></i>SoloHistoria PRO</a></li>
+            <li><a href="ajustes.html"><i class="fa fa-ellipsis-h"></i>Ajustes</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i>Clasificaciones</a></li>
+            <li><a href="glosario.html"><i class="fa fa-bookmark"></i>Glosario</a></li>
+            <li><a href="#"><i class="fa fa-user-plus"></i>Invitar Amigos</a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Calificar </a></li>
+            <li><a href="register12.html"><i class="fa fa-sign-in"></i>Regístrate</a></li>
+            <li><a href="login12.html"><i class="fa fa-user-plus"></i>Inicia sesión</a></li>
+            <li><a href="index.html"><i class="fa fa-share"></i>Salir</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-right-search">
+        <ul id="slide-out-right" class="collapsible side-nav">
+            <li>
+                <div class="form">
+                    <input type="search">
+                    <button class="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <h5>Búsqueda popular</h5>
+            </li>
+            <li><a href="">Galicia</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- Contenido curso -->
+    <div class="row" style="padding-top: 60px;">
+              
+               <!-- Reproductor de audio -->
+
+        <div class="container" style="padding-top: 20px;padding-bottom: 20px;">
+            <audio id="audio" src="audios/el_eje_cronologico_mod1.mp3" type="audio/mpeg"></audio>
+            <button class="btn btn-floating btn-large pulse center-align togglePlay" onClick="togglePlay()"></button>
+        </div>
+
+        <div class="container">
+            <div class="articulo">
+                <h2>El eje cronológico</h2>
+
+                <!-- The Timeline -->
+
+                <ul class="timeline">
+
+                    <!-- Item 1 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">La caída del Imperio romano de Occidente</span>
+                                <span class="time-wrapper"><span class="time">476 d.C</span></span>
+                            </div>
+                            <div class="desc">Muerte del último emperador romano de Occidente, Rómulo Augústulo.</div>
+                        </div>
+                    </li>
+
+                    <!-- Item 2 -->
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">La Batalla de Guadalete</span>
+                                <span class="time-wrapper"><span class="time">711</span></span>
+                            </div>
+                            <div class="desc">Los musulmanes inician la conquista de la Península Ibérica.</div>
+                        </div>
+                    </li>
+
+                    <!-- Item 3 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Coronación de Carlomagno</span>
+                                <span class="time-wrapper"><span class="time">800</span></span>
+                            </div>
+                            <div class="desc">Nace el imperio carolingio.</div>
+                        </div>
+                    </li>
+                    <!-- Item 4 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Tratado de Verdún</span>
+                                <span class="time-wrapper"><span class="time">843</span></span>
+                            </div>
+                            <div class="desc">Reparto del Imperio entre los hijos de Carlomagno.</div>
+                        </div>
+                    </li>
+                    <!-- Item 5 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">El Gran Cisma de la Iglesia
+                                </span>
+                                <span class="time-wrapper"><span class="time">1054</span></span>
+                            </div>
+                            <div class="desc">La Iglesia de Occidente será llamada Iglesia Católica y la de Oriente se llamará Iglesia Ortodoxa.</div>
+                        </div>
+                    </li>
+                    <!-- Item 6 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">La Batalla de Hastings
+                                </span>
+                                <span class="time-wrapper"><span class="time">1066</span></span>
+                            </div>
+                            <div class="desc">Inicio de la conquista normanda de Inglaterra. Fin de la Era Vikinga.</div>
+                        </div>
+                    </li>
+                    <!-- Item 7 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Declaración de la Carta Magna
+                                </span>
+                                <span class="time-wrapper"><span class="time">1215</span></span>
+                            </div>
+                            <div class="desc">Origen del parlamentarismo inglés y de la limitación de los poderes del rey.</div>
+                        </div>
+                    </li>
+                    <!-- Item 8 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">La Guerra de los Cien Años
+                                </span>
+                                <span class="time-wrapper"><span class="time">1337 - 1453</span></span>
+                            </div>
+                            <div class="desc">Fue una serie de conflictos entre Francia e Inglaterra.</div>
+                        </div>
+                    </li>
+                    <!-- Item 9 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">La peste negra
+                                </span>
+                                <span class="time-wrapper"><span class="time">1348</span></span>
+                            </div>
+                            <div class="desc">Una enfermedad muy mortífera que se extendió por Europa a través de los parásitos de las roedores.</div>
+                        </div>
+                    </li>
+                    <!-- Item 10 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Conquista otomana de Constantinopla
+                                </span>
+                                <span class="time-wrapper"><span class="time">1453</span></span>
+                            </div>
+                            <div class="desc">Los turcos otomanos conquistan Bizancio. Fin del Imperio romano de Oriente. Fin de la Edad Media.</div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href=""><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+
+</body>
+
+</html>

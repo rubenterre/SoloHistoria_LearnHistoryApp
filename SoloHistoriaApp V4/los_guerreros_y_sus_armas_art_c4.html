@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content-left">
+                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><img src="images/Side_Menu.png"></a>
+                        <a href="index.html">
+                            <h4>SoloHistoria</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- navbar bottom -->
+
+    <nav class="acceso_curso">
+        <a href="test1_los_guerreros_y_sus_armas_art_c4.html">
+            <div class="nav-fixed col s12 center-align">
+                <img src="images/SIGUIENTE.png">
+            </div>
+        </a>
+    </nav>
+
+    <!-- fin navbar bottom -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav">
+            <li>
+                <div class="user-view">
+                    <!--<div class="background">
+					 	<img src="images/bg-user.jpg" alt="">
+					</div> -->
+                    <img class="circle responsive-img" src="images/Ruben_Terre.jpg" alt="">
+                    <span class="white-text name">Rubén Terré<br>
+                        <p>2.9848 Puntos</p>
+                    </span>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-star"></i>SoloHistoria PRO</a></li>
+            <li><a href="ajustes.html"><i class="fa fa-ellipsis-h"></i>Ajustes</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i>Clasificaciones</a></li>
+            <li><a href="glosario.html"><i class="fa fa-bookmark"></i>Glosario</a></li>
+            <li><a href="#"><i class="fa fa-user-plus"></i>Invitar Amigos</a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Calificar </a></li>
+            <li><a href="register12.html"><i class="fa fa-sign-in"></i>Regístrate</a></li>
+            <li><a href="login12.html"><i class="fa fa-user-plus"></i>Inicia sesión</a></li>
+            <li><a href="index.html"><i class="fa fa-share"></i>Salir</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-right-search">
+        <ul id="slide-out-right" class="collapsible side-nav">
+            <li>
+                <div class="form">
+                    <input type="search">
+                    <button class="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <h5>Búsqueda popular</h5>
+            </li>
+            <li><a href="">Galicia</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- Contenido curso -->
+    <div class="row" style="padding-top: 60px">
+
+        <!-- Contenido Curso -->
+
+        <div class="container">
+            <div class="articulo">
+                <h2>Los guerreros y sus armas</h2>
+                <p style="text-align: center;">Algunas de las armas más utilizadas en el medievo.</p>
+                <div class="row">
+                   <div class="col s3">
+                       <div id="BtnContaineres">
+                        <button class="botones activas" onclick="filterSelection('all')"><img src="images/btn_todo_armas.png"></button>
+                        <button class="botones" onclick="filterSelection('escudo')"><img src="images/btn_escudo.png"></button>
+                        <button class="botones" onclick="filterSelection('arco')"><img src="images/btn_arcos.png"></button>
+                        <button class="botones" onclick="filterSelection('espada')"><img src="images/btn_espadas.png"></button>
+                        <button class="botones" onclick="filterSelection('hacha')"><img src="images/btn_hachas.png"></button>
+                        <button class="botones" onclick="filterSelection('maza')"><img src="images/btn_mazas.png"></button>
+                        <button class="botones" onclick="filterSelection('lanza')"><img src="images/btn_lanzas.png"></button>
+                        <button class="botones" onclick="filterSelection('daga')"><img src="images/btn_dagas.png"></button>
+                    </div>
+                   </div>
+                   <div class="col s9">
+                        
+                    <div class="col s12 caracteristicas filterDiv escudo">
+                        <img src="images/escudo.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Escudo triangular</strong></h3>
+                            <p>Se trata de una evolución de los escudos de lágrima de los siglos IX y X. Este es de los más icónicos del medievo, pero hay muchos más.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">s.XII</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">60cm</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">50cm</div>
+                                <div class="style_txt">Ancho</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 caracteristicas filterDiv escudo">
+                        <img src="images/rodela.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Rodela</strong></h3>
+                            <p>Es un tipo de escudo circular embrazado que se usaba para la lucha con daga o espada.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">s.XV</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">60cm</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">60cm</div>
+                                <div class="style_txt">Ancho</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 caracteristicas filterDiv arco">
+                        <img src="images/arco_largo.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Arco largo</strong></h3>
+                            <p>Los más famosos eran los arcos largos galeses o <i>longbow</i>, estaban hechos de tejo y sus saetas alcanzaban hasta 250 metros de distancia.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">s.XIII</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">180cm</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">50cm</div>
+                                <div class="style_txt">Ancho</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 caracteristicas filterDiv espada">
+                        <img src="images/espada.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Espada</strong></h3>
+                            <p>Es el arma más preciada y también la más cara. Hay muchos tipos y versiones en función de la época y el lugar. Esta es un <i>claymore</i> escocés.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">XIII</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">150cm</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">1,5kg</div>
+                                <div class="style_txt">Peso</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 caracteristicas filterDiv hacha">
+                        <img src="images/hacha.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Hacha</strong></h3>
+                            <p>Era un arma común y asequible en la Edad Media. Las había de muchos tipos según la época y el lugar. Esta es una hacha danesa.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">s.IX</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">180cm</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">30cm</div>
+                                <div class="style_txt">Ancho</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 caracteristicas filterDiv maza">
+                        <img src="images/maza.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Maza</strong></h3>
+                            <p>Esta es una maza de armas, muy común en la Edad Media. Las hay de muchos tipos como el mangual o maza de cadenas.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">s.IX</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">50cm</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">1,5kg</div>
+                                <div class="style_txt">Peso</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 caracteristicas filterDiv lanza">
+                        <img src="images/pica.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Lanza</strong></h3>
+                            <p>Arma de asta muy usada en el medievo, barata y fácil de usar. Existen muchos tipos. Esta es una jabalina normanda.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">s.IX</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">2m</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">1,5kg</div>
+                                <div class="style_txt">Peso</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 caracteristicas filterDiv daga">
+                        <img src="images/daga.png" class="caract_img">
+                        <div class="col s12 caracteristicas_txt">
+                            <h3><strong>Daga</strong></h3>
+                            <p>Arma auxiliar, más larga que un puñal y más corta que una espada. Las había de muchos tipos y eran muy populares en el s.XIII. Esta es una daga larga o <i>dirk</i>.</p>
+                        </div>
+                        <div class="col s12 caract_style">
+                            <div class="col s4 caract_style_uno">
+                                <div class="style_tit">s.XIII</div>
+                                <div class="style_txt">Época</div>
+                            </div>
+                            <div class="col s4 caract_style_dos">
+                                <div class="style_tit">45cm</div>
+                                <div class="style_txt">Largo</div>
+                            </div>
+                            <div class="col s4 caract_style_tres">
+                                <div class="style_tit">340g</div>
+                                <div class="style_txt">Peso</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                   </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href=""><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script>
+        filterSelection("all")
+
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        // Show filtered elements
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        // Hide elements that are not selected
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current control button (highlight it)
+        var btnContainer = document.getElementById("BtnContaineres");
+        var btns = btnContainer.getElementsByClassName("botones");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("activas");
+                current[0].className = current[0].className.replace(" activas", "");
+                this.className += " activas";
+            });
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#FF4D27">
+
+    <link rel="icon" href="images/favicon.png">
+    <title>SoloHistoria - Tu app para aprender historia</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/loaders.css">
+    <link rel="stylesheet" href="css/line-awesome.css">
+    <link rel="stylesheet" href="css/line-awesome-font-awesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- end preloader -->
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="content-left">
+                        <a href="#slide-out" data-activates="slide-out" class="sidebar"><img src="images/Side_Menu.png"></a>
+                        <a href="index.html">
+                            <h4>SoloHistoria</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- navbar bottom -->
+
+    <nav class="acceso_curso">
+        <a href="test1_una_era_entre_murallas_art_c1.html">
+            <div class="nav-fixed col s12 center-align">
+                <img src="images/SIGUIENTE.png">
+            </div>
+        </a>
+    </nav>
+
+    <!-- fin navbar bottom -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel">
+        <ul id="slide-out" class="collapsible side-nav">
+            <li>
+                <div class="user-view">
+                    <!--<div class="background">
+					 	<img src="images/bg-user.jpg" alt="">
+					</div> -->
+                    <img class="circle responsive-img" src="images/Ruben_Terre.jpg" alt="">
+                    <span class="white-text name">Rubén Terré<br>
+                        <p>2.9848 Puntos</p>
+                    </span>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-star"></i>SoloHistoria PRO</a></li>
+            <li><a href="ajustes.html"><i class="fa fa-ellipsis-h"></i>Ajustes</a></li>
+            <li><a href="#"><i class="fa fa-trophy"></i>Clasificaciones</a></li>
+            <li><a href="glosario.html"><i class="fa fa-bookmark"></i>Glosario</a></li>
+            <li><a href="#"><i class="fa fa-user-plus"></i>Invitar Amigos</a></li>
+            <li><a href="#"><i class="fa fa-star"></i>Calificar </a></li>
+            <li><a href="register12.html"><i class="fa fa-sign-in"></i>Regístrate</a></li>
+            <li><a href="login12.html"><i class="fa fa-user-plus"></i>Inicia sesión</a></li>
+            <li><a href="index.html"><i class="fa fa-share"></i>Salir</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- sidebar -->
+    <div class="sidebar-panel sidebar-right-search">
+        <ul id="slide-out-right" class="collapsible side-nav">
+            <li>
+                <div class="form">
+                    <input type="search">
+                    <button class="button"><i class="fa fa-search"></i></button>
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <h5>Búsqueda popular</h5>
+            </li>
+            <li><a href="">Galicia</a></li>
+        </ul>
+    </div>
+    <!-- end sidebar -->
+
+    <!-- Contenido curso -->
+    <div class="row">
+        <div class="top_img">
+            <img src="images/Avila_Una_Era_entre_murallas.jpg" width="100%">
+        </div>
+        <!-- Reproductor de audio -->
+
+        <div class="container" style="margin-top: 20px;margin-bottom: 20px;">
+            <audio id="audio" src="audios/una_era_entre_murallas_mod1.mp3" type="audio/mpeg"></audio>
+            <button class="btn btn-floating btn-large pulse center-align togglePlay" onClick="togglePlay()"></button>
+        </div>
+
+        <!-- Contenido Curso -->
+
+        <div class="container">
+            <div class="articulo">
+                <h2>Una Era entre murallas</h2>
+                <p class="textos_art"><img src="images/Una-Era-entre-murallas_icon.png" hspace="4" vspace="4" style="float: left;">En la Edad Media muchas ciudades construían murallas a su alrededor. Estas fortificaciones eran algo más que gruesos muros y altas torres, eran un símbolo de poder que albergaba los hogares de cientos de familias.</p>
+                <p class="textos_art">Sus habitantes, los burgueses, realizaban todo tipo de oficios como: herrero, tabernero, médico, alfarero, etcétera. Incluso algunos de ellos eran mercaderes que comerciaban con productos traídos de lugares muy lejanos, como los <u>tejidos de seda de Oriente o los cristales de ámbar del Báltico.</u></p>
+                <figure>
+                    <img src="images/ambar_baltico.png" width="100%">
+                    <figcaption class="center-align">Ámbar del Báltico</figcaption>
+                </figure>
+                <p class="textos_art">Sus gentes vivían en comunicación directa con las aldeas y poblaciones vecinas (llamado <u>alfoz</u>) que les proveían de alimentos y materias primas, como la madera o la piedra. Las ciudades eran el centro económico de la Edad Media y las murallas su escudo.</p>
+            </div>
+            <p class="textos_art_textual"><em>“Otrosí decimos que dondequiera que sea hallado este nombre: ciudad, que se entienda todo aquel lugar que es cercado por los muros, con los arrabales y los edificios que se tienen con ellos.”</em><br><span style="font-size: 14px;color: white;font-family: Rubik;">En las Siete Partidas del rey Alfonso X el Sabio, un cuerpo legislativo del s.XIII, se definía así a la ciudad.</span></p>
+        </div>
+    </div>
+    <!-- end product -->
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="container-fluid">
+            <div class="content">
+                <a href=""><img src="images/Las_ciudades_medievales_banner.jpg" alt="Las ciudades medievales"></a>
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <h3>SoloHistoria</h3>
+            <br>
+            <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p>Copyright © Rubén Terré <br> Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/numscroller.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/carrusel.js"></script>
+
+</body>
+
+</html>
